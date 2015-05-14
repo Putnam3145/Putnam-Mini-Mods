@@ -1,0 +1,7 @@
+item_toy_wizard_p
+
+[OBJECT:ITEM]
+
+[ITEM_TOY:ITEM_TOY_WAND_P]
+[NAME:toy wand:toy wands]
+[HARD_MAT]
