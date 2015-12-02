@@ -11,11 +11,13 @@ reaction_macro_fantastic
 	[PRODUCT:100:4:BAR:NO_SUBTYPE:METAL:STEEL][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:SMELT]
+    [DESCRIPTION:Takes one iron ore, one flux stone and 4 bars of coal and makes 4 bars of steel.]
 	
 [REACTION:SOAP_MAKING_MACRO_PUTNAM]
 	[NAME:make soap (macro)]
 	[BUILDING:ASHERY_PLUS_WOOD_FURNACE_FANTASTIC_PUTNAM:CUSTOM_S]
 	[PRODUCT:100:1:TOOL:SOAP_TOKEN_1_P:NONE:NONE]
+    [DESCRIPTION:A fire-and-forget reaction that will automatically make soap when available.]
 	
 [REACTION:POTASH_MAKING_QUICK_PUTNAM]
 	[NAME:make potash (quick)]
@@ -23,6 +25,7 @@ reaction_macro_fantastic
 	[REAGENT:A:1:WOOD:NONE:NONE:NONE]
 	[PRODUCT:100:1:BAR:NONE:POTASH:NONE][PRODUCT_DIMENSION:150]
 	[SKILL:POTASH_MAKING]
+    [DESCRIPTION:Skips intermediate processes in potash making, simply trading wood for potash.]
 	
 [REACTION:LYE_MAKING_QUICK_PUTNAM]
 	[NAME:make lye (quick)]
@@ -31,6 +34,7 @@ reaction_macro_fantastic
 	[REAGENT:bucket:1:BUCKET:NONE:NONE:NONE][EMPTY][PRESERVE_REAGENT][DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
 	[PRODUCT:100:1:LIQUID_MISC:NONE:LYE:NONE][PRODUCT_TO_CONTAINER:bucket][PRODUCT_DIMENSION:150]
 	[SKILL:LYE_MAKING]
+    [DESCRIPTION:Skips intermediate processes in lye making, trading wood for lye. Still requires a bucket.]
 	
 [REACTION:ASH_MAKING_MACRO_PUTNAM] for skill gains
 	[NAME:ignore (ash)]
@@ -41,6 +45,10 @@ reaction_macro_fantastic
 	[PRODUCT:100:1:TOOL:SOAP_TOKEN_2_P:NONE:NONE]
 	[AUTOMATIC]
 	[SKILL:WOOD_BURNING]
+    [CATEGORY:MACRO_SUBREACTIONS]
+        [CATEGORY_NAME:automated reactions]
+        [CATEGORY_DESCRIPTION:Reactions that are not to be activated by the user, instead being made when ingredients appear. "Token" tools are used to make sure they just don't go off forever; the macro reactions not in this category make those rather than the actual products, then your dwarves do all the work.]
+    [DESCRIPTION:An intermediate reaction so that your wood burner can still skill up in the soap macro.]
 	
 [REACTION:LYE_MAKING_MACRO_PUTNAM]
 	[NAME:ignore (lye)]
@@ -50,8 +58,10 @@ reaction_macro_fantastic
 	[REAGENT:token:1:TOOL:SOAP_TOKEN_2_P:NONE:NONE]
 	[PRODUCT:100:1:LIQUID_MISC:NONE:LYE:NONE][PRODUCT_TO_CONTAINER:bucket][PRODUCT_DIMENSION:150]
 	[PRODUCT:100:1:TOOL:SOAP_TOKEN_3_P:NONE:NONE]
+    [CATEGORY:MACRO_SUBREACTIONS]
 	[AUTOMATIC]
 	[SKILL:LYE_MAKING]
+    [DESCRIPTION:An intermediate reaction so that your lye maker can still skill up in the soap macro.]
 	
 	
 [REACTION:MAKE_SOAP_FROM_TALLOW_MACRO_PUTNAM]
@@ -67,8 +77,10 @@ reaction_macro_fantastic
 	[REAGENT:token:1:TOOL:SOAP_TOKEN_3_P:NONE:NONE]
 	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:tallow:SOAP_MAT]
 		[PRODUCT_DIMENSION:150]
+    [CATEGORY:MACRO_SUBREACTIONS]
 	[AUTOMATIC]
 	[SKILL:SOAP_MAKING]
+    [DESCRIPTION:The final step in the soap macro.]
 
 [REACTION:MAKE_SOAP_FROM_OIL_MACRO_PUTNAM]
 	[NAME:ignore (soap)]
@@ -88,17 +100,20 @@ reaction_macro_fantastic
 	[REAGENT:token:1:TOOL:SOAP_TOKEN_3_P:NONE:NONE]
 	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:oil:SOAP_MAT]
 		[PRODUCT_DIMENSION:150]
+    [CATEGORY:MACRO_SUBREACTIONS]
 	[AUTOMATIC]
 	[SKILL:SOAP_MAKING]
+    [DESCRIPTION:The final step in the soap macro.]
 	
 [REACTION:CLOTHESMAKING_MACRO_PUTNAM]
 	[NAME:make full set of clothes (macro)]
-	[BUILDING:CLOTHIER_QUICK_PUTNAM:CUSTOM_C]
-	[PRODUCT:100:1:TOOL:CLOTHES_TOKEN_P:NONE:NONE]	
+	[BUILDING:CLOTHES:CUSTOM_C]
+	[PRODUCT:100:1:TOOL:CLOTHES_TOKEN_P:NONE:NONE]
+    [DESCRIPTION:Will make shirt, a pair of pants and a pair of shoes as soon as cloth is available.]
 
 [REACTION:FULL_SET_CLOTHES_PUTNAM]
 	[NAME:ignore (clothes)]
-	[BUILDING:CLOTHIER_QUICK_PUTNAM:NONE]
+	[BUILDING:CLOTHES:NONE]
 	[REAGENT:A:40000:CLOTH:NONE:NONE:NONE]
 	[REAGENT:B:1:TOOL:CLOTHES_TOKEN_P:NONE:NONE]
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_SHIRT:GET_MATERIAL_FROM_REAGENT:A:NONE]
@@ -106,3 +121,4 @@ reaction_macro_fantastic
 	[PRODUCT:100:2:SHOES:ITEM_SHOES_SHOES:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CLOTHESMAKING]
 	[AUTOMATIC]
+    [DESCRIPTION:You cannot use this reaction. Seeing this reaction in the active list means you have the ingredients to make a full set of clothes and ordered one with the macro reaction. Cancelling it won't do anything.]
