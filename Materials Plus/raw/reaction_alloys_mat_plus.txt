@@ -9,6 +9,7 @@ reaction_alloys_mat_plus
     [REAGENT:manganese:150:BAR:NONE:INORGANIC:MANGANESE_PUTNAM]
     [PRODUCT:100:4:BAR:NONE:INORGANIC:STEEL][PRODUCT_DIMENSION:150]
     [SKILL:SMELT]
+    [DESCRIPTION:Using just iron and manganese, makes an alloy with identical properties to steel.]
     
 [REACTION:MANGANESE_STEEL_MAKING_ORE]
     [NAME:make steel bars (manganese) (use ore)]
@@ -18,6 +19,7 @@ reaction_alloys_mat_plus
     [PRODUCT:100:4:BAR:NONE:INORGANIC:STEEL][PRODUCT_DIMENSION:150]
     [PRODUCT:100:1:BAR:NONE:INORGANIC:IRON][PRODUCT_DIMENSION:150]
     [PRODUCT:100:3:BAR:NONE:INORGANIC:MANGANESE_PUTNAM][PRODUCT_DIMENSION:150]
+    [DESCRIPTION:Using just iron and manganese, makes an alloy with identical properties to steel.]
     [SKILL:SMELT]
     
 [REACTION:HIGH_SPEED_STEEL_MAKING]
@@ -29,4 +31,6 @@ reaction_alloys_mat_plus
     [REAGENT:tungsten:150:BAR:NONE:INORGANIC:TUNGSTEN_PUTNAM]
     [REAGENT:molybdenum:150:BAR:NONE:INORGANIC:MOLYBDENUM_PUTNAM]
     [PRODUCT:100:10:BAR:NONE:INORGANIC:HIGH_SPEED_STEEL_PUTNAM][PRODUCT_DIMENSION:150]
+    [DESCRIPTION:Takes steel, vanadium, chromium, tungsten and molybdenum to make high speed steel, which is about 16% stronger than steel.]
+    [DESCRIPTION:The fact that 6 bars of steel go in and 10 bars of high-steel come out makes this a very worthy alloy.]
     [SKILL:SMELT]

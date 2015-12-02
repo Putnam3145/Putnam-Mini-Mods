@@ -8,6 +8,7 @@ item_mat_plus
 [TILE:66]
 [SIZE:1]
 [MATERIAL_SIZE:1]
+[DESCRIPTION:Refines beryllium using flourite, a beryllium ore, salt and sulfuric acid.]
 
 [ITEM_TOOL:SULFURIC_ACID_TOKEN_P]
 [NAME:sulfuric acid token:sulfuric acid tokens]
@@ -15,6 +16,7 @@ item_mat_plus
 [TILE:83]
 [SIZE:1]
 [MATERIAL_SIZE:1]
+[DESCRIPTION:Sulfuric acid is made using brimstone and a vanadium ore as a catalyst; the brimstone will become sulfuric acid and you keep the vanadium ore.]
 
 [ITEM_TOOL:REDUCER_TOKEN_P]
 [NAME:reducer token:reducer tokens]
@@ -22,6 +24,7 @@ item_mat_plus
 [TILE:82]
 [SIZE:1]
 [MATERIAL_SIZE:1]
+[DESCRIPTION:Magnesium is made using the Pidgeon process, requiring dolomite and a silicon mineral.]
 
 [ITEM_TOOL:KROLL_TOKEN_P]
 [NAME:kroll token:kroll tokens]
@@ -29,3 +32,4 @@ item_mat_plus
 [TILE:75]
 [SIZE:1]
 [MATERIAL_SIZE:1]
+[DESCRIPTION:Uses the kroll process to refine zirconium or titanium. This requires ore, a bar of coke and two bars of magnesium.]
