@@ -2,6 +2,38 @@ item_macro_fantastic
 
 [OBJECT:ITEM]
 
+[ITEM_TOOL:POTASH_TOKEN_1_P]
+[NAME:ash token:ash tokens]
+[VALUE:0]
+[TILE:233]
+[SIZE:1]
+[MATERIAL_SIZE:1]
+[DESCRIPTION:A token that signals to your dwarves to automatically make ash as soon as possible.]
+
+[ITEM_TOOL:POTASH_TOKEN_2_P]
+[NAME:potash token:potash tokens]
+[VALUE:0]
+[TILE:233]
+[SIZE:1]
+[MATERIAL_SIZE:1]
+[DESCRIPTION:A token that signals to your dwarves to automatically make potash as soon as possible.]
+
+[ITEM_TOOL:CLEAR_GLASS_TOKEN_1_P]
+[NAME:pearlash token:pearlash tokens]
+[VALUE:0]
+[TILE:233]
+[SIZE:1]
+[MATERIAL_SIZE:1]
+[DESCRIPTION:A token that signals to your dwarves to automatically make pearlash as soon as possible.]
+
+[ITEM_TOOL:CLEAR_GLASS_TOKEN_2_P]
+[NAME:clear glass token:clear glass token]
+[VALUE:0]
+[TILE:233]
+[SIZE:1]
+[MATERIAL_SIZE:1]
+[DESCRIPTION:A token that signals to your dwarves to automatically make clear glass as soon as possible.]
+
 [ITEM_TOOL:SOAP_TOKEN_1_P]
 [NAME:ash token:ash tokens]
 [VALUE:0]
