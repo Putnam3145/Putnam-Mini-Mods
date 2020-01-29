@@ -1,0 +1,11 @@
+graphics_weird_civ_putnam
+
+[OBJECT:GRAPHICS]
+
+[TILE_PAGE:LASILODE]
+	[FILE:putnam/lasilode.png]
+	[TILE_DIM:32:32] it's mostly based off the official tileset
+	[PAGE_DIM:1:1]
+
+[CREATURE_GRAPHICS:PHOTOSYNTHESIS_FANTASTIC]
+	[DEFAULT:LASILODE:0:0:AS_IS] not going to put more effort into this until the official tileset comes with all its graphics stuff, sorry
