@@ -362,6 +362,7 @@ language_EVILELF
 	[T_WORD:COMMON:eguxa]
 	[T_WORD:COMMUNION:est]
 	[T_WORD:COMPASSION:gila]
+	[T_WORD:COMPANY:obeng]
 	[T_WORD:COMPETE:exam]
 	[T_WORD:COMPLEX:icene]
 	[T_WORD:CONFEDERACY:cung]

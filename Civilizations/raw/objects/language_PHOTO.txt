@@ -362,6 +362,7 @@ language_PHOTO
 	[T_WORD:COMMON:biki]
 	[T_WORD:COMMUNION:pika]
 	[T_WORD:COMPASSION:etsatu]
+	[T_WORD:COMPANY:thragaz]
 	[T_WORD:COMPETE:gaz]
 	[T_WORD:COMPLEX:xera]
 	[T_WORD:CONFEDERACY:udaz]

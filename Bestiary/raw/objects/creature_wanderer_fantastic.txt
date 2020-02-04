@@ -239,7 +239,6 @@ creature_wanderer_fantastic
         [NATURAL_SKILL:CONSOLE:15]
         [CAN_DO_INTERACTION:BASIC_HEALING_FANTASTIC]
             [CDI:ADV_NAME:Heal]
-            [CDI:INTERACTION:FANTASTIC_BASIC_HEAL]
             [CDI:TARGET:A:LINE_OF_SIGHT]
             [CDI:TARGET_RANGE:A:1]
             [CDI:VERB:gesture:gestures:NA]
