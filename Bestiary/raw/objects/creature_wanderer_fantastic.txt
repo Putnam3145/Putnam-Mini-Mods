@@ -217,13 +217,15 @@ creature_wanderer_fantastic
         [MALE]
         [ODOR_STRING:arousal]
         [ORIENTATION:FEMALE:0:0:1]
-        [ORIENTATION:MALE:1:0:2]
+        [ORIENTATION:MALE:0:0:1] no reason to have a chance of exclusive homosexuality when multiple lovers can be taken
+        [PERSONALITY:LUST_PROPENSITY:0:90:100] makes multiple lovers way more likely
     [CASTE:FERTILITY_FEMALE]
         [CASTE_NAME:fertility elemental:fertility elementals:fertility elemental]
         [FEMALE]
         [ODOR_STRING:arousal]
-        [ORIENTATION:FEMALE:1:0:2]
+        [ORIENTATION:FEMALE:0:0:1]
         [ORIENTATION:MALE:0:0:1]
+        [PERSONALITY:LUST_PROPENSITY:0:90:100]
     [CASTE:HEALING]
         [CASTE_NAME:healing elemental:healing elementals:healing elemental]
         [SPHERE:HEALING]
