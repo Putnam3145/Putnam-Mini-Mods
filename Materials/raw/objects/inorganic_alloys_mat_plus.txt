@@ -56,6 +56,7 @@ inorganic_alloys_mat_plus
 	[LIQUID_DENSITY:15000]
 	[MOLAR_MASS:195850]
 	[ITEMS_WEAPON][ITEMS_WEAPON_RANGED][ITEMS_AMMO][ITEMS_DIGGER]
+	this would be the best armor, if you were allowed to use it that way
 	[ITEMS_HARD]
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
@@ -90,6 +91,11 @@ inorganic_alloys_mat_plus
 	[DISPLAY_COLOR:0:7:1]
 	[BUILD_COLOR:0:7:1]
 	[MATERIAL_VALUE:60]
+	[ITEMS_WEAPON][ITEMS_WEAPON_RANGED][ITEMS_AMMO][ITEMS_DIGGER]
+	[ITEMS_HARD]
+	[ITEMS_METAL]
+	[ITEMS_BARRED]
+	[ITEMS_SCALED]
 	[SPEC_HEAT:440]
 	[MELTING_POINT:12592]
 	[BOILING_POINT:15269] unknown, used cobalt
