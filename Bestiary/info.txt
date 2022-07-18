@@ -1,0 +1,8 @@
+[ID:fantastic_bestiary]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Putnam]
+[NAME:Putnam's Bestiary]
+[DESCRIPTION:Adds some wandering wilderness creatures and megabeasts.]

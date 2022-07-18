@@ -1,0 +1,8 @@
+[ID:fantastic_secrets_and_curses]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Putnam]
+[NAME:Putnam's Secrets n' Curses]
+[DESCRIPTION:Adds a few secrets based on various extra spheres, plus some minor, medium and major curses for troublemakers.]
