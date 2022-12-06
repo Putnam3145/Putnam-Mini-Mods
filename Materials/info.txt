@@ -3,6 +3,12 @@
 [DISPLAYED_VERSION:1.0]
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[REQUIRES_ID_BEFORE_ME:metal_library]
 [AUTHOR:Putnam]
 [NAME:Materials Plus]
-[DESCRIPTION:Adds a bunch of metals and associated alloys for them.]
+[DESCRIPTION:Adds some ores and extra alloys for use with the standard metals library mod.]
+
+[STEAM_TITLE:Materials Plus]
+[STEAM_DESCRIPTION:Adds a few alloys and a bunch of ores to get some of the extra materials added by the metal library. It might be better to have the minerals in the metal library? I dunno. I prefer to keep things modular, when possible, which it is now. Woo!]
+[STEAM_TAG:materials]
+[STEAM_TAG:metals]

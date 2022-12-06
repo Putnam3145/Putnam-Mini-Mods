@@ -1,0 +1,160 @@
+text_putnamagic
+
+[OBJECT:TEXT]
+
+[TEXT_SET:SECRET_ANIMALS PUTNAM]
+
+Animals
+Beasts
+Creatures
+Living things
+Canines
+Felines
+Quadrapeds
+Birds
+Reptiles
+
+[TEXT_SET:SECRET_BLIGHT PUTNAM]
+
+Disease
+
+[TEXT_SET:SECRET_CHAOS PUTNAM]
+
+Lawlessness
+Callousness
+Thieves
+Rogues
+Saboteurs
+Lever-pulling
+
+[TEXT_SET:SECRET_EARTH PUTNAM]
+
+Salt
+Iron
+Steel
+Metal
+Gold
+Silver
+Platinum
+Copper
+Tin
+Nickel
+Metals
+Aluminum
+Aluminium
+Vanadium
+Lead
+Minerals
+Stone
+Microcline
+Orthoclase
+Marble
+Calcite
+Garnets
+Pyralspites
+Pyropes
+Diamonds
+Boulders
+Soil
+Tiger eyes
+Magnetite
+Cassiterite
+Hematite
+Limonite
+Rutile
+Pitchblende
+the earth beneath our feet
+
+[TEXT_SET:SECRET_FIRE PUTNAM]
+
+Fire
+Heat
+the Inferno
+Blazes
+Infernos
+
+[TEXT_SET:SECRET_FISH PUTNAM]
+
+Fish
+Pike
+Minnows
+Carp
+Trout
+Swimming
+Lungfish
+
+[TEXT_SET:SECRET_METAL PUTNAM]
+
+Iron
+Steel
+Metal
+Gold
+Silver
+Platinum
+Copper
+Tin
+Nickel
+Metals
+Aluminum
+Aluminium
+Lead
+
+[TEXT_SET:SECRET_MINERAL PUTNAM]
+
+Minerals
+Stone
+Microcline
+Orthoclase
+Marble
+Calcite
+Garnets
+Pyralspites
+Pyropes
+Diamonds
+Boulders
+Soil
+Tiger eyes
+Magnetite
+Cassiterite
+Hematite
+Limonite
+Rutile
+Pitchblende
+
+[TEXT_SET:SECRET_NATURE PUTNAM]
+
+Animals
+Beasts
+Creatures
+Living things
+Canines
+Felines
+Quadrapeds
+Birds
+Reptiles
+Nature
+Mother Nature
+The Natural World
+
+[TEXT_SET:SECRET_NIGHTMARE PUTNAM]
+
+Terror
+Nightmares
+the Night
+
+[TEXT_SET:SECRET_SALT PUTNAM]
+
+Salt
+
+[TEXT_SET:SECRET_WATER PUTNAM]
+
+Flow
+Rivers
+Water
+Lakes
+Oceans
+Puddles
+Ponds
+Oases
+Rain
+Storms

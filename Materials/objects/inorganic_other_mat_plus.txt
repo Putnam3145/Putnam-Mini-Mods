@@ -10,7 +10,7 @@ inorganic_other_mat_plus
 	[DISPLAY_COLOR:0:7:1]
 	[MATERIAL_VALUE:5]
 	[SPEC_HEAT:1416]
-	[MELTING_POINT:10000] properly 10018, but that makes it solid at underground temperatures
+	[MELTING_POINT:10000] properly 10018, but that makes it solid at underground temperatures -- assume it's dilute
 	[BOILING_POINT:10502]
 	[SOLID_DENSITY:1830]
 	[LIQUID_DENSITY:1830]

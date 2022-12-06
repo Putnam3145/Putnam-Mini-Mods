@@ -1,0 +1,8 @@
+[ID:fixed_elasticities]
+[NUMERIC_VERSION:1]
+[DISPLAYED_VERSION:1.0]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0]
+[AUTHOR:Putnam]
+[NAME:Elasticity fixes]
+[DESCRIPTION:Patches material raws to have more realistic properties.]
